@@ -1,0 +1,17 @@
+A solver for the "IQ Tester" puzzle.
+
+This solver features the following command line options:
+
+Initial empty position with '-start x' (default 0)
+    This option specifies which peg should be left empty in the setup. Pegs positions are specified left to right by each row and zero-indexed. The very top peg is 0, then the next row is 1 and 2.
+
+Board size with '-size X' (default 5)
+    The normal board has sides of length 5, but this can be made arbitrarily large (with sufficient memory).
+
+Target number of pegs remaining with '-target X' (default 1). 
+    This can be theoretically any number from 1 to the max number of pegs on your specified board size.
+
+
+TODO:
+    - Simple web interface
+    - Caching of board positions so larger sizes are feasible
